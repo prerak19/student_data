@@ -234,7 +234,7 @@ class Register extends Component {
                 <div className="profileContainer mb-3">
                   <Row>
                     <Col xs={3}>
-                      <input type="file" accept="image/*" multiple id="profileImg" onChange={this.profileImageSelection} />
+                      <input type="file" accept="image/*" className="float-right" multiple id="profileImg" onChange={this.profileImageSelection} />
                     </Col>
                     <Col xs={9}>
                       <div className="form-group multi-preview">

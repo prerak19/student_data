@@ -130,10 +130,10 @@ class StudentList extends Component {
           <h2 className="heading mb-0 d-inline-flex">View-Students</h2>
           <Button color="secondary" className="float-right" onClick={() => this.props.history.push('/')} ><i className="fa fa-lg fa-plus mr-2"></i>Add More</Button>
         </div>
-        {students && students.length > 0 && <Table
+        <Table
           data={students}
           columns={this.ctColumns}
-        />}
+        />
         <Modal isOpen={crudData} size="xl" key="editStudent" toggle={() => this.toggleModal()}>
           <ModalHeader>Edit Student Details</ModalHeader>
           <ModalBody>
