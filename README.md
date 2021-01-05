@@ -1,9 +1,4 @@
-# Welcome to ENCORA TEST
-# Login Credentials ===> 
-
-userName==> encoraTest
-password ==> 123456
-
+# Welcome to STUDENT DATA
 
 ## Available Scripts
 
