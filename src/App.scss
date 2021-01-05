@@ -1,0 +1,40 @@
+.page-layout {
+    .content {
+        .c-box {
+            min-height: 484px;
+            padding-top: calc((100vh - 548px) / 2);
+        }
+        .box {
+            padding: 2rem 10rem 0rem 10rem;
+            margin: 0 auto;
+            display: block;
+            height: calc(100vh - 65px);
+        }
+    }
+}
+
+.error {
+    color: red;
+    margin-top: 5px;
+    font-size: 13px;
+}
+/* required field style */
+.req-msg {
+    color: #dc3545 !important;
+    font-size: 13px !important;
+}
+
+.profileContainer {
+    position: relative;
+    min-height: 200px;
+    .profileImage {
+        height: 150px;
+        cursor: pointer;
+    }
+
+    .profileImageSelection {
+        color:black;
+        margin: 4rem auto;
+        display: block;
+    }
+}
